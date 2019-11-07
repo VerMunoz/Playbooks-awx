@@ -7,4 +7,5 @@
     - name: Only echo
       shell: echo "hola a todos"
     - name: Create file
-      shell: mkdir -p /root/Playbook-bueno 
+      shell: sudo mkdir -p /root/Playbook-bueno 
+
