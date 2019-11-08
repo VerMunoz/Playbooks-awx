@@ -1,0 +1,10 @@
+---
+
+- name:  Second Playbook
+  hosts: all
+  tasks:
+
+    - name: Only echo
+      shell: echo "hola a algunos"
+    - name: Create file
+      shell: sudo rm -f /root/Playbook-bueno 
