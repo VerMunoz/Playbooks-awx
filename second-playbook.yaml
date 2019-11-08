@@ -5,6 +5,6 @@
   tasks:
 
     - name: Only echo
-      shell: echo "hola a algunos"
-    - name: Create file
-      shell: sudo rm -rf /root/Playbook-bueno 
+      command: echo "hola a algunos"
+    - name: Delete file
+      command: sudo rm -rf /root/Playbook-bueno 
