@@ -7,4 +7,4 @@
     - name: Only echo
       shell: echo "hola a algunos"
     - name: Create file
-      shell: sudo rm -f /root/Playbook-bueno 
+      shell: sudo rm -rf /root/Playbook-bueno 
